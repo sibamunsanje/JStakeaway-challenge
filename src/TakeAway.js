@@ -1,10 +1,10 @@
 function TakeAway() {
-  this.dishes = {squid:7.90, prawns:8.90, friedrice:7.20, sprite:1.10};
+  this.dishes = {};
 }
 
-TakeAway.prototype.getDishes = function () {
-  return this.dishes
+TakeAway.prototype.getDishes = function() {
+  return this.dishes;
 };
-// TakeAway.prototype.listDishes = function () {
-//   return this.dishes
-// };
+TakeAway.prototype.setDishes = function(orders) {
+  return this.dishes = orders;
+};
