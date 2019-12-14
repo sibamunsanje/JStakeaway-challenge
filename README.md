@@ -1,6 +1,6 @@
-This is my individual challenge based on the [TakeAway challenge] in JS
+This is my individual challenge based on the [TakeAway challenge](https://github.com/makersacademy/takeaway-challenge)in JS
 
-##STORIES COMPLETED
+## STORIES COMPLETED
 
 ```
 * As a customer
@@ -13,7 +13,7 @@ This is my individual challenge based on the [TakeAway challenge] in JS
 
 ```
 
-##USER STORIES TO BE COMPLETED
+## USER STORIES TO BE COMPLETED
 
 ```
 * As a customer
