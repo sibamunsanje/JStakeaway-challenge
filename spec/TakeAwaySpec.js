@@ -6,8 +6,8 @@ describe("TakeAway", function()) {
   beforeEach(function () {
     takeaway = new TakeAway();
   });
-describe("it has a list of dishes with prices", function() {
+  it("it has a list of dishes with prices", function() {
     dishes = {squid:7.90, prawns:8.90, friedrice:7.20, sprite:1.10};
     takeaway.pickDishes(dishes);
-    expect(menu.listDishes()).toEqual(dishes);
+    expect(takeaway.listDishes()).toEqual(dishes);
   });
