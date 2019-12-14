@@ -1,13 +1,16 @@
 "use strict";
 
-describe("TakeAway", function()) {
-  var TakeAway;
+describe("TakeAway", function() {
+  var takeaway;
 
   beforeEach(function () {
     takeaway = new TakeAway();
   });
   it("it has a list of dishes with prices", function() {
-    dishes = {squid:7.90, prawns:8.90, friedrice:7.20, sprite:1.10};
-    takeaway.pickDishes(dishes);
-    expect(takeaway.listDishes()).toEqual(dishes);
+    expect(takeaway.getDishes()).toEqual({squid:7.90, prawns:8.90, friedrice:7.20, sprite:1.10});
   });
+  // it("can select a number of available dishes", function () {
+  //   expect()
+  // })
+
+});
